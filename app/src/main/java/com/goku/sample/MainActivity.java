@@ -30,7 +30,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class MainActivity extends AppCompatActivity implements Callback<ReponseResult>,
         LoadMoreGridView.OnLoadMoreListener, SwipeRefreshLayout.OnRefreshListener {
 
-    public static final String BASE_URL = "http://157.7.196.188:8080/";
+    public static final String BASE_URL = "YOUR_BASE_URL";
 
     Retrofit retrofit;
     BearApi bearApi;
